@@ -1,0 +1,78 @@
+.borderline{
+	margin: 50px;
+	border: 2px solid #000000;
+}
+.margin{
+	margin: 5px;
+}
+.appendix{
+	text-align: right;
+	padding-bottom: -45px;
+	padding-right: 60px;
+	font-style: italic;
+}
+.title{
+	text-align: center;
+}
+.column {
+	float: left;
+	width: 50%;
+}
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.fund{
+	text-align: right;
+	padding-top: 10px;
+}
+.oop{
+	text-align: center;
+}
+.payorcolumn {
+	float: left;
+	width: 50%;
+}
+.payor:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.payorname{
+	text-align: center;
+}
+.address{
+	text-align: center;
+}
+.purpose{
+	text-align: center;
+}
+.accountcolumn {
+	float: left;
+	width: 33%;
+}
+.account:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.account{
+	padding-top: -30px;
+}
+.accounttitle{
+	text-align: center;
+}
+.totalamount{
+	text-align: right;
+}
+.officialcolumn {
+	float: left;
+	width: 50%;
+	text-align: center;
+}
+.official:after {
+	content: "";
+	display: table;
+	clear: both;
+}
